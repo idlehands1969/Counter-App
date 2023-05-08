@@ -1,0 +1,45 @@
+<html>
+	<head>
+		
+		<!-- GOOGLE FONT -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+
+		<!-- NORMALIZE STYLESHEET -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+		
+		<!-- MY CSS -->
+		<link rel="stylesheet" href="index.css">
+
+	</head>
+	<body>
+		<main class="app">
+			
+			<h1>
+				People entered: 
+			</h1>
+
+			<h2 id="count-el">
+				0
+			</h2>
+
+			<div class="buttons">
+				<button id="increment-btn" onclick="increment()">
+					INCREMENT
+				</button>
+				<button id="save-btn" onclick="save()">
+					SAVE
+				</button>
+			</div>
+
+			<p id="save-el">
+				Previous entries: 
+			</p>
+
+		</main>
+		
+		<script src="index.js"></script>
+
+	</body>
+</html>
